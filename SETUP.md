@@ -19,7 +19,7 @@ echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
 
 sudo vi /etc/sysctl.conf
 --->add this 
-            fs.inotify.max_user_watches=524288
+fs.inotify.max_user_watches=524288
 
 sudo sysctl -p
 

@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 //Components
 import HomeContent from "../components/homePage/HomeContent"
 import HomeFeatured from "../components/homePage/HomeFeatured"
-import HomeAbout from "../components/homePage/HomeAbout"
+import HomeAbout from "../components/homePage/homeAbout"
 import HomeBanner from "../components/homePage/HomeBanner"
 //Context
 import {
