@@ -18,15 +18,17 @@ export const Logo = styled.div`
     color: #000;
     color: ${props => props.theme.text};
   }
-  span {
-    height: 16px;
-    width: 16px;
+  
+  // THE TECH NOKADY
+  span {                     
+    height: 14px;
+    width: 14px;
     background: #ea291e;
     margin: 0 4px;
     border-radius: 100%;
     display: inline-block;
     position: relative;
-    bottom: 2px;
+    bottom: 0px;
   }
 `
 

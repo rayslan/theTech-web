@@ -106,8 +106,8 @@ const HomeBanner = ({ onCursor }) => {
         onMouseLeave={onCursor}
       />
       <BannerTitle variants={container} initial="initial" animate="animate">
-        <Headline variants={item}>DIG</Headline>
-        <Headline variants={item}>DEEP</Headline>
+        <Headline variants={item}>DevOps</Headline>
+        <Headline variants={item}>Engineer</Headline>
       </BannerTitle>
     </Banner>
   )

@@ -1,4 +1,4 @@
-
+```
 -----Install nvm------
 
 curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh -o install_nvm.sh
@@ -33,4 +33,5 @@ npm install gatsby-plugin-manifest@2.4.37 gatsby-remark-images@3.3.40
 npm run start
 
 -----------------------
+```
 
