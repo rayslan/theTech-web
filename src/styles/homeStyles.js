@@ -8,6 +8,8 @@ export const Banner = styled.div`
   width: 100%;
   position: relative;
   margin-bottom: 296px;
+
+  
 `
 export const Video = styled.div`
   height: 100%;
@@ -37,6 +39,15 @@ export const Headline = styled(motion.span)`
   font-size: 23rem;
   font-weight: 900;
   line-height: 0.76;
+
+  @media screen and (max-width: 960px) {
+    display: block;
+    font-size: 8rem;
+    font-weight: 100;
+    line-height: 0.76;
+    transition: 0.8s all ease;
+    
+  }
 `
 
 //Content Section
